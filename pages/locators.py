@@ -2,10 +2,11 @@ from selenium.webdriver.common.by import By
 
 
 class BasePageLocators():
-    LOGIN_LINK = (By.CSS_SELECTOR, "#login_link")
-    LOGIN_LINK_INVALID = (By.CSS_SELECTOR, "#login_link_inc")
+    LOGIN_LINK = (By.CSS_SELECTOR, "#registration_link")
+    LOGIN_LINK_INVALID = (By.CSS_SELECTOR, "#registration_link_inc")
     BASKET_BUTTON = (By.CSS_SELECTOR, ".basket-mini a")
     BASKET_BUTTON_INVALID = (By.CSS_SELECTOR, ".basket-mini_inc")
+    USER_ICON = (By.CSS_SELECTOR, ".icon-user")
 
 
 class BasketPageLocators(object):
